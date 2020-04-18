@@ -2253,7 +2253,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: rgba(255, 255, 255, 0.15);
-				background-image: url("../../images/banner2.jpg");
+				background-image: url("images/banner2.jpg");
 				background-size: 50%;
 				background-repeat: no-repeat;
 				background-position: left;
