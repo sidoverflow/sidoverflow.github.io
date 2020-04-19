@@ -4,11 +4,62 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+function showAsg1() {
+	var x = document.getElementById("cLetter");
+	document.getElementById("pAndH").style.display = "none";
+	document.getElementById("tReport").style.display = "none";
+	document.getElementById("srsDoc").style.display = "none";
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}	
+function showAsg2() {
+	var x = document.getElementById("pAndH");
+	document.getElementById("cLetter").style.display = "none";
+	document.getElementById("tReport").style.display = "none";
+	document.getElementById("srsDoc").style.display = "none";
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}	
+function showAsg3() {
+	var x = document.getElementById("tReport");
+	document.getElementById("cLetter").style.display = "none";
+	document.getElementById("pAndH").style.display = "none";
+	document.getElementById("srsDoc").style.display = "none";
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}	
 
+function showAsg4() {
+	var x = document.getElementById("srsDoc");
+	document.getElementById("cLetter").style.display = "none";
+	document.getElementById("pAndH").style.display = "none";
+	document.getElementById("tReport").style.display = "none";
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}	
+
+(function($) {
+	document.getElementById("cLetter").style.display = "none";
+	document.getElementById("tReport").style.display = "none";
+	document.getElementById("srsDoc").style.display = "none";
+	document.getElementById("pAndH").style.display = "none";
 	var	$window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
+
+	
 
 	// Breakpoints.
 		breakpoints({

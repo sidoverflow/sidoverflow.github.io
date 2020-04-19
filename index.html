@@ -4,7 +4,7 @@
 -->
 <html>
 	<head>
-		<title>Sidharth Sudarsan</title>
+		<title>hi, I'm Sidharth</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -27,8 +27,8 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Resume</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Course Showcase</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -58,10 +58,11 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi, <br /> I'm <strong>Sid</strong></h2>
-								<p>aspiring software engineer.<br />
-								graphic designer & photographer.<br />
-								love the intersection of these fields. </p>
+								<h2 class="alt">Hi, <br /> I'm <strong>Sidharth.</strong></h2>
+								<p>aspiring software engineer<br />
+								at <strong>Lassonde School of Engineering</strong>.<br />
+								photographer and graphic designer.<br />
+								love the intersection of these fields.</p>
 							</header>
 
 							<footer>
@@ -72,67 +73,16 @@
 					</section>
 
 				<!-- Portfolio -->
+
+				
 					<section id="portfolio" class="two">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Resume</h2>
 							</header>
 
-							<embed
-  								src="https://drive.google.com/file/d/1YDPrepCqpcqYBsxNGgGyiQRRUnjAS6YN/view?usp=sharing#toolbar=0&navpanes=0&scrollbar=0"
- 								/>
-
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
+							<img src="images/resume.png" width="1100"/>
 						</div>
 					</section>
 
@@ -141,17 +91,36 @@
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Course Showcase</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<button class="showcasebutton" onclick="showAsg1()">Cover Letter</button> 
+							<button class="showcasebutton" onclick="showAsg2()">Poster & Handout</button> 
+							<button class="showcasebutton" onclick="showAsg3()">Technical Report</button> 
+							<button class="showcasebutton" onclick="showAsg4()">Software Requirements Doc</button> 
+							
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<div id="cLetter">
+								<img src="images/coverLetter.png" width="800"/>
+							</div>
+							
+							<div id="pAndH">
+								poster <br />
+								<img src="images/poster.png" width="900"/> 
+								<br /> handout <br />
+								<img src="images/handout1.png" width="900"/>
+								<img src="images/handout2.png" width="900"/>
+							</div>
+
+							<div id="tReport">
+								<embed
+  									src="/images/technical-report.pdf=0&navpanes=0&scrollbar=0&statusbar=0&messages=0"
+  									width="425" height="425" />
+							</div>
+
+							<div id="srsDoc">
+								<img src="images/coverLetter.png" width="800"/>
+							</div>
 
 						</div>
 					</section>
@@ -192,7 +161,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Sidharth Sudarsan</li><li>Coursework for ENG2003: Effective Engineering Communication W2020</a></li>
 					</ul>
 
 			</div>
