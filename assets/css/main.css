@@ -2007,6 +2007,7 @@ input, select, textarea {
 		font-weight: 300;
 		position: relative;
 		height: 3em;
+		outline:none;
 		display: inline-block;
 		border-radius: 5em;
 		color: #fff !important;
@@ -2038,7 +2039,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #b4091d;
+			background-color: #ffffff;
 		}
 	
 
@@ -2330,6 +2331,10 @@ input, select, textarea {
 			
 
 			#main > section.four {
+				background-color: #ffffff;
+			}
+
+			#main > section.five {
 				background-color: #ffffff;
 			}
 
