@@ -284,6 +284,8 @@ input, select, textarea {
 	.ghicon:hover {
 		background-color: #01a284;
 		border-radius: 10em;
+		transition: 0.5s ease-in;
+		cursor: pointer;
 	}
 
 
@@ -1836,8 +1838,9 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
+			margin-top: -0.25em;
 			margin-left: -1em;
-			background: #f00;
+			
 
 			
 		}
@@ -2396,8 +2399,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: rgba(255, 255, 255);
-				background-image: url("images/banner.jpg");
-				background-size: 50%;
+				background-image: url("images/banneredit.png");
+				background-size: 55%;
 				background-repeat: no-repeat;
 				background-position: left;
 				/* background-blend-mode: overlay; */
