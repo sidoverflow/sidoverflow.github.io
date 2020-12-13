@@ -1,5 +1,5 @@
 <template>
-  <v-app id="inspire" dark>
+  <v-app dark>
     <v-navigation-drawer
       v-model="drawer"
       app
@@ -29,7 +29,7 @@
             >ABOUT ME</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link href="/what_i_do">
+        <v-list-item link href="/what-i-do">
           <v-list-item-avatar>
             <v-icon small>fas fa-code-branch</v-icon>
           </v-list-item-avatar>

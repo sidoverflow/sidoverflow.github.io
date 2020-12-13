@@ -50,7 +50,7 @@
         rounded
         fab
         class="px-12 more-button"
-        href="/what_i_do"
+        href="/what-i-do"
         ><span class="terminal font-weight-black primary--text">>_ </span>
         more</v-btn
       >
