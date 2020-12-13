@@ -1,93 +1,71 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
-          </p>
-          <p>
-            For more information on Vuetify, check out the
-            <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              documentation </a
-            >.
-          </p>
-          <p>
-            If you have questions, please join the official
-            <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="chat"
-            >
-              discord </a
-            >.
-          </p>
-          <p>
-            Find a bug? Report it on the github
-            <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3" />
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
+  <div>
+    <h1 class="font-weight-thin text-center mt-16">
+      Hi, I'm
+      <br />
+      <span class="primary--text font-weight-black"
+        >Sidharth <span class="white--text">Sudarsan.</span>
+      </span>
+    </h1>
+    <v-row justify="center" align="center">
+      <v-col align="right">
+        <h2 class="font-weight-thin">
+          <span class="primary--text">&lt;</span>SOFTWARE<span
+            class="primary--text"
+            >&gt;</span
           >
-            Nuxt Documentation
-          </a>
+        </h2>
+        <p class="text-body font-weight-regular text--disabled">
+          Aspiring <span class="primary--text">software engineer.</span><br />
+          Admirer of <span class="font-italic">clean</span> software design.<br />
+          Into <span class="white--text">AR</span> and
+          <span class="white--text">server-side development.</span>
           <br />
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
+          Fascinated by math.<br />
+        </p>
+      </v-col>
+      <v-col align="center">
+        <img src="~/assets/main.png" width="85%" />
+      </v-col>
+      <v-col align="left">
+        <h2 class="font-weight-thin">
+          <span class="primary--text">~</span>REST OF ME<span
+            class="primary--text"
+            >~</span
           >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire"> Continue </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+        </h2>
+        <p class="text-body font-weight-regular text--disabled">
+          I take pictures and make videos. <br />
+          Hobbyist graphic designer. <br />
+          Food enthusiast. <br />
+          Petrolhead.<br />
+        </p>
+      </v-col>
+    </v-row>
+    <v-row justify="center" align="center" class="mt-16">
+      <!-- <h1 class="terminal font-weight-black">>_</h1> -->
+      <v-btn
+        elevation="2"
+        x-large
+        rounded
+        fab
+        class="px-12 more-button"
+        href="/what_i_do"
+        ><span class="terminal font-weight-black primary--text">>_ </span>
+        more</v-btn
+      >
+    </v-row>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+// import Logo from '~/components/Logo.vue'
+// import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
-  components: {
-    Logo,
-    VuetifyLogo,
-  },
+  // components: {
+  //   Logo,
+  //   VuetifyLogo,
+  // },
 }
 </script>

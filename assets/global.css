@@ -1,0 +1,17 @@
+.terminal {
+  animation: blink 1s infinite step-end;
+}
+.tab-button {
+  color: red;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
