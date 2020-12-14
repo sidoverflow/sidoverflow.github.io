@@ -11,9 +11,25 @@
       <!-- <v-spacer></v-spacer> -->
     </v-row>
     <v-row justify="center" align="center">
-      <v-btn color="primary" rounded outlined class="ml-8">Resume (Web)</v-btn>
+      <v-btn
+        href="https://registry.jsonresume.org/sidoverflow"
+        target="_blank"
+        color="primary"
+        rounded
+        outlined
+        class="ml-8"
+        >Resume (Web)</v-btn
+      >
       <v-spacer></v-spacer>
-      <v-btn color="primary" rounded outlined class="mr-8">Resume (PDF)</v-btn>
+      <v-btn
+        href="/resume.pdf"
+        download
+        color="primary"
+        rounded
+        outlined
+        class="mr-8"
+        >Resume (PDF)</v-btn
+      >
     </v-row>
 
     <v-row justify="center">
