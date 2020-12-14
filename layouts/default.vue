@@ -20,12 +20,12 @@
         if you prefer
       </p>
 
-      <v-list nav rounded>
-        <v-list-item link href="/">
+      <v-list class="mt-12" nav rounded>
+        <v-list-item active-class link href="/">
           <v-list-item-avatar>
-            <v-icon small color="primary">fas fa-user</v-icon>
+            <v-icon small>fas fa-user</v-icon>
           </v-list-item-avatar>
-          <v-list-item-title class="text-button font-weight-bold primary--text"
+          <v-list-item-title class="text-button font-weight-bold"
             >ABOUT ME</v-list-item-title
           >
         </v-list-item>
@@ -53,7 +53,7 @@
             >IT'S ALL ART</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link>
+        <v-list-item link href="/get-in-touch">
           <v-list-item-avatar>
             <v-icon small>fas fa-hands-helping</v-icon>
           </v-list-item-avatar>

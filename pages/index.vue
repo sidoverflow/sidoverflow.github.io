@@ -49,11 +49,10 @@
         x-large
         rounded
         fab
-        class="px-12 more-button"
+        class="px-10 terminal text-h4 font-weight-black primary--text"
         href="/what-i-do"
-        ><span class="terminal font-weight-black primary--text">>_ </span>
-        more</v-btn
-      >
+        >>_
+      </v-btn>
     </v-row>
   </div>
 </template>

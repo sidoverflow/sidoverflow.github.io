@@ -1,5 +1,12 @@
 .terminal {
-  animation: blink 1s infinite step-end;
+  animation: blink 1.75s infinite step-end;
+}
+
+.v-btn i:hover {
+  transform: scale(1.15);
+}
+.v-btn::before {
+  background-color: transparent;
 }
 
 @keyframes blink {
