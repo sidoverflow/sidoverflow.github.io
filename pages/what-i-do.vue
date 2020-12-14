@@ -1,12 +1,21 @@
 <template>
   <div>
-    <v-row justify="center" align="center" class="mt-16">
+    <v-row justify="center" align="center" class="mt-10">
+      <!-- <v-spacer></v-spacer> -->
       <v-icon large>fas fa-code-branch</v-icon>
-      <h1 class="font-weight-black text-center pl-4">
+      <h1 class="font-weight-black pl-4">
         What I
         <span class="primary--text">Do</span>
       </h1>
+
+      <!-- <v-spacer></v-spacer> -->
     </v-row>
+    <v-row justify="center" align="center">
+      <v-btn color="primary" rounded outlined class="ml-8">Resume (Web)</v-btn>
+      <v-spacer></v-spacer>
+      <v-btn color="primary" rounded outlined class="mr-8">Resume (PDF)</v-btn>
+    </v-row>
+
     <v-row justify="center">
       <div id="timeline-content">
         <ul class="timeline">
@@ -17,7 +26,7 @@
             </h3>
             <p class="primary--text font-italic">Software Engineering, B.Eng</p>
             <div class="logo-collection">
-              <img src="~/assets/mongodb-logo.png" width="10%" />
+              <img src="~/assets/lasyork_edited.png" width="70%" />
             </div>
           </li>
           <li class="event" data-date="April 2020 - present">
@@ -46,7 +55,9 @@
             </p>
           </li>
           <li class="event" data-date="August 2020 - present">
-            <h3>Dr Car</h3>
+            <a href="https://www.drcar.ca" style="text-decoration: none"
+              ><h3 class="white--text">Dr Car</h3></a
+            >
             <p class="primary--text font-italic">
               Co-founder and Back-end Engineer
             </p>
@@ -59,6 +70,9 @@
               <br />
               Designing and building the back-end server for the application.
             </p>
+            <div class="logo-collection">
+              <img src="~/assets/dr-car.png" width="30%" />
+            </div>
           </li>
         </ul>
       </div>

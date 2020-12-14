@@ -84,3 +84,9 @@ export default {
   },
 }
 </script>
+
+<style>
+html {
+  overflow-y: auto;
+}
+</style>
