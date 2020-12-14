@@ -6,7 +6,7 @@
       <h1 class="font-weight-black pl-4">Projects</h1>
     </v-row>
     <v-row justify="center" align="center" class="px-16">
-      <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
+      <v-timeline align-top>
         <v-timeline-item
           v-for="(item, i) in items"
           :key="i"
