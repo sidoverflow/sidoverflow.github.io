@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row justify="center" align="center" class="mt-10">
+    <v-row justify="center" align="center" class="mt-4">
       <!-- <v-spacer></v-spacer> -->
       <v-icon large>fas fa-code-branch</v-icon>
       <h1 class="font-weight-black pl-4">
@@ -17,17 +17,17 @@
         color="primary"
         rounded
         outlined
-        class="ml-8"
+        class="ml-16"
         >Resume (Web)</v-btn
       >
       <v-spacer></v-spacer>
       <v-btn
+        class="mr-16"
         href="/resume.pdf"
         download
         color="primary"
         rounded
         outlined
-        class="mr-8"
         >Resume (PDF)</v-btn
       >
     </v-row>

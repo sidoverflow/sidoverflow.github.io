@@ -37,7 +37,7 @@
             >WHAT I DO</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link>
+        <v-list-item link href="/projects">
           <v-list-item-avatar>
             <v-icon small>fas fa-terminal</v-icon>
           </v-list-item-avatar>

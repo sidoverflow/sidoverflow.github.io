@@ -49,7 +49,7 @@ export default {
         dark: {
           primary: '#67c2a2',
           accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
+          secondary: '#3d3d3d',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,

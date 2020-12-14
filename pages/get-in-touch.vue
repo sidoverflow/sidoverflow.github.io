@@ -1,17 +1,17 @@
 <template>
   <div>
-    <v-row justify="center" align="center" class="mt-10">
+    <v-row justify="center" align="center" class="my-10">
       <v-icon large>fas fa-hands-helping</v-icon>
       <h1 class="font-weight-black pl-4">
         Get in
         <span class="primary--text">Touch</span>
       </h1>
     </v-row>
-    <v-row justify="center" align="center" class="mt-16">
+    <v-row justify="center" align="center" class="mt-10">
       <v-timeline clipped>
-        <v-timeline-item left class="mb-4 font-weight-bold" hide-dot>
+        <!-- <v-timeline-item left class="mb-4 font-weight-bold" hide-dot>
           Email
-        </v-timeline-item>
+        </v-timeline-item> -->
         <v-timeline-item left class="mb-4" small>
           <v-row justify="end">
             <v-btn
@@ -26,9 +26,9 @@
           </v-row>
         </v-timeline-item>
 
-        <v-timeline-item class="mb-4 font-weight-bold" hide-dot>
+        <!-- <v-timeline-item class="mb-4 font-weight-bold" hide-dot>
           LinkedIn
-        </v-timeline-item>
+        </v-timeline-item> -->
         <v-timeline-item
           right
           class="mb-4"
@@ -49,9 +49,9 @@
           </v-row>
         </v-timeline-item>
 
-        <v-timeline-item left class="mb-4 font-weight-bold" hide-dot>
+        <!-- <v-timeline-item left class="mb-4 font-weight-bold" hide-dot>
           GitHub
-        </v-timeline-item>
+        </v-timeline-item> -->
         <v-timeline-item left class="mb-4" small>
           <v-row justify="end">
             <v-btn
@@ -66,9 +66,9 @@
           </v-row>
         </v-timeline-item>
 
-        <v-timeline-item class="mb-4 font-weight-bold" hide-dot>
+        <!-- <v-timeline-item class="mb-4 font-weight-bold" hide-dot>
           Instagram
-        </v-timeline-item>
+        </v-timeline-item> -->
         <v-timeline-item right class="mb-4" small>
           <v-row justify="space-between">
             <v-btn

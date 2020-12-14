@@ -5,9 +5,6 @@
 .v-btn i:hover {
   transform: scale(1.15);
 }
-.v-btn::before {
-  background-color: transparent;
-}
 
 @keyframes blink {
   from,
@@ -18,6 +15,10 @@
   50% {
     opacity: 1;
   }
+}
+
+a:hover {
+  font-style: italic;
 }
 
 #timeline-content {
