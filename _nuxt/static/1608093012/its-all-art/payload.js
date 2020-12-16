@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/its-all-art", {data:[{}],fetch:[],mutations:void 0});

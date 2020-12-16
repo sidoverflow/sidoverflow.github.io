@@ -1,0 +1,113 @@
+.terminal {
+  animation: blink 1.75s infinite step-end;
+}
+
+.v-btn i:hover {
+  transform: scale(1.15);
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+a:hover {
+  font-style: italic;
+}
+
+#timeline-content {
+  margin-top: 3rem;
+  padding-left: 22rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+.logo-collection {
+  position: absolute;
+}
+/* Timeline */
+.timeline {
+  border-left: 6px solid #67c2a2;
+  border-radius: 0.75rem;
+  /* margin-left: 15rem; */
+  color: rgba(255, 255, 255, 0.8);
+  /* margin: auto; */
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  /* padding: 50px; */
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  /* max-width: 0%; */
+}
+.timeline h1 {
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: 1.4em;
+}
+.timeline h2,
+.timeline h3 {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.timeline h3:hover {
+  font-style: italic;
+}
+.timeline p {
+  letter-spacing: normal;
+  font-weight: 400;
+  line-height: 1em;
+  max-width: 50em;
+  text-align: justify;
+}
+.timeline .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.171);
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.timeline .event:first-of-type {
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 70px;
+}
+.timeline .event:last-of-type {
+  padding-bottom: 75px;
+  margin-bottom: 10px;
+  border: none;
+}
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  left: -22rem;
+  content: attr(data-date);
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+.timeline .event:after {
+  box-shadow: 0 0 0 4px #67c2a2;
+  left: -57.85px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: '';
+  top: 5px;
+}
+.timeline .event:hover:after {
+  background: #67c2a2;
+}
