@@ -21,7 +21,7 @@
       </p>
 
       <v-list class="mt-12" nav rounded>
-        <v-list-item active-class link href="/">
+        <v-list-item active-class="active-tab" to="/" link>
           <v-list-item-avatar>
             <v-icon small>fas fa-user</v-icon>
           </v-list-item-avatar>
@@ -29,7 +29,7 @@
             >ABOUT ME</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link href="/what-i-do">
+        <v-list-item active-class="active-tab" link to="/what-i-do">
           <v-list-item-avatar>
             <v-icon small>fas fa-code-branch</v-icon>
           </v-list-item-avatar>
@@ -37,7 +37,7 @@
             >WHAT I DO</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link href="/projects">
+        <v-list-item active-class="active-tab" link to="/projects">
           <v-list-item-avatar>
             <v-icon small>fas fa-terminal</v-icon>
           </v-list-item-avatar>
@@ -45,7 +45,7 @@
             >PROJECTS</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link href="/its-all-art">
+        <v-list-item active-class="active-tab" link to="/its-all-art">
           <v-list-item-avatar>
             <v-icon small>fas fa-atom</v-icon>
           </v-list-item-avatar>
@@ -53,7 +53,7 @@
             >IT'S ALL ART</v-list-item-title
           >
         </v-list-item>
-        <v-list-item link href="/get-in-touch">
+        <v-list-item active-class="active-tab" link to="/get-in-touch">
           <v-list-item-avatar>
             <v-icon small>fas fa-hands-helping</v-icon>
           </v-list-item-avatar>
