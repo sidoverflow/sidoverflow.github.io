@@ -1,16 +1,21 @@
 <template>
   <div>
     <h1 class="font-weight-thin text-center mt-16">
-      Hi, I'm
+      {{ greeting }}
       <br />
-      <span class="primary--text font-weight-black"
-        >Sidharth <span class="white--text">Sudarsan.</span>
+      <span
+        v-if="isMalayalam"
+        class="primary--text font-weight-black malayalam-name"
+        >{{ firstName }} <span class="white--text">{{ lastName }}</span>
+      </span>
+      <span v-else class="primary--text font-weight-black"
+        >{{ firstName }} <span class="white--text">{{ lastName }}</span>
       </span>
     </h1>
     <v-row justify="center" align="center">
       <v-col align="right">
         <h2 class="font-weight-thin">
-          <span class="primary--text">&lt;</span>SOFTWARE<span
+          <span class="primary--text">&lt;</span>COMPUTERS<span
             class="primary--text"
             >&gt;</span
           >
@@ -22,6 +27,7 @@
           <span class="white--text">server-side development.</span>
           <br />
           Fascinated by math.<br />
+          FOSS enthusiast.<br />
         </p>
       </v-col>
       <v-col align="center">
@@ -29,15 +35,16 @@
       </v-col>
       <v-col align="left">
         <h2 class="font-weight-thin">
-          <span class="primary--text">~</span>REST OF ME<span
-            class="primary--text"
+          <span class="primary--text">~</span>AND?<span class="primary--text"
             >~</span
           >
         </h2>
         <p class="text-body font-weight-regular text--disabled">
-          I take pictures and make videos. <br />
-          Hobbyist graphic designer. <br />
+          Love photo and film. <br />
+          Music addict. <br />
           Food enthusiast. <br />
+          Into cars and motorcycles. <br />
+          Fan of <span class="font-italic">The Beautiful Game</span>. <br />
         </p>
       </v-col>
     </v-row>
@@ -48,9 +55,9 @@
         x-large
         rounded
         fab
-        class="px-10 terminal text-h4 font-weight-black primary--text"
+        class="px-10 text-h4 font-weight-black primary--text"
         href="/what-i-do"
-        >>_
+        >>
       </v-btn>
     </v-row>
   </div>
@@ -58,6 +65,33 @@
 
 <script>
 export default {
-  // transition: 'page',
+  data() {
+    return {
+      greeting: "Hi, I'm",
+      firstName: 'Sidharth',
+      lastName: 'Sudarsan',
+      isMalayalam: false,
+    }
+  },
+  mounted() {
+    window.setInterval(() => {
+      this.toggle()
+    }, 4500)
+  },
+  methods: {
+    toggle() {
+      if (this.firstName === 'Sidharth' && this.lastName === 'Sudarsan') {
+        this.greeting = 'നമസ്കാരം, ഞാൻ'
+        this.firstName = 'സിദ്ധാർഥ്'
+        this.lastName = 'സുദർശൻ'
+        this.isMalayalam = true
+      } else {
+        this.greeting = "Hi, I'm"
+        this.firstName = 'Sidharth'
+        this.lastName = 'Sudarsan'
+        this.isMalayalam = false
+      }
+    },
+  },
 }
 </script>

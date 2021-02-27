@@ -16,7 +16,7 @@
           <v-row justify="end">
             <v-btn
               class="contact-button text-lowercase"
-              href="/what-i-do"
+              href="mailto:writetosid@pm.me"
               elevation="4"
               rounded
             >
@@ -39,7 +39,7 @@
           <v-row justify="space-between">
             <v-btn
               class="contact-button"
-              href="/what-i-do"
+              href="https://linkedin.com/in/sidharthsudarsan"
               elevation="4"
               rounded
             >
@@ -56,7 +56,7 @@
           <v-row justify="end">
             <v-btn
               class="contact-button text-lowercase"
-              href="/what-i-do"
+              href="https://github.com/sidoverflow"
               elevation="4"
               rounded
             >
@@ -69,7 +69,7 @@
         <!-- <v-timeline-item class="mb-4 font-weight-bold" hide-dot>
           Instagram
         </v-timeline-item> -->
-        <v-timeline-item right class="mb-4" small>
+        <!-- <v-timeline-item right class="mb-4" small>
           <v-row justify="space-between">
             <v-btn
               class="contact-button text-lowercase"
@@ -81,7 +81,7 @@
               @sidoverflow
             </v-btn>
           </v-row>
-        </v-timeline-item>
+        </v-timeline-item> -->
       </v-timeline>
     </v-row>
   </div>
