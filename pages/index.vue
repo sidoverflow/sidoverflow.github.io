@@ -43,7 +43,7 @@
           Love photo and film. <br />
           Music addict. <br />
           Food enthusiast. <br />
-          Into cars and motorcycles. <br />
+          Petrolhead. <br />
           Fan of <span class="font-italic">The Beautiful Game</span>. <br />
         </p>
       </v-col>

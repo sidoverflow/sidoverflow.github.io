@@ -16,12 +16,12 @@
           <v-row justify="end">
             <v-btn
               class="contact-button text-lowercase"
-              href="mailto:writetosid@pm.me"
+              href="mailto:hi@sidharth.me"
               elevation="4"
               rounded
             >
               <v-icon class="mr-2">fas fa-paper-plane</v-icon>
-              writetosid@pm.me
+              hi@sidharth.me
             </v-btn>
           </v-row>
         </v-timeline-item>

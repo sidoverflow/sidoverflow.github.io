@@ -74,9 +74,7 @@
             <a href="https://www.drcar.ca" style="text-decoration: none"
               ><h3 class="white--text">Dr Car</h3></a
             >
-            <p class="primary--text font-italic">
-              Co-founder and Back-end Engineer
-            </p>
+            <p class="primary--text font-italic">Back-end Engineer</p>
             <p>
               Co-founded a startup with a team of seven, reinventing how car
               owners book, service, and track their car repairs driven by a deep
