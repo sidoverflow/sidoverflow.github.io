@@ -84,9 +84,42 @@
         </v-timeline-item> -->
       </v-timeline>
     </v-row>
+    <v-row justify="center" align="center" class="pt-6 px-6 mt-16">
+      <h4 class="font-weight-regular my-4">
+        If you encrypt email using GPG,
+        <a href="/sidharth-pubkey.asc">download</a> my public key or:
+      </h4>
+    </v-row>
+    <v-row justify="center" align="center" class="pt-2 px-6">
+      <code class="code-js"
+        ><span class="primary--text">curl</span>
+        https://sidharth.me/sidharth-pubkey.asc |
+        <span class="primary--text">gpg</span> --import</code
+      >
+      <v-btn class="copy-code-js ma-2" fab x-small elevation="4">
+        <v-icon class="pa-2">far fa-copy</v-icon>
+      </v-btn>
+    </v-row>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    const copyCodeButton = document.querySelector('.copy-code-js')
+    copyCodeButton.addEventListener('click', function (event) {
+      // Select the email link anchor text
+      const codeLink = document.querySelector('.code-js')
+      const range = document.createRange()
+      range.selectNode(codeLink)
+      window.getSelection().addRange(range)
+
+      // Now that we've selected the anchor text, execute the copy command
+      document.execCommand('copy')
+
+      // Remove the selections
+      window.getSelection().removeAllRanges()
+    })
+  },
+}
 </script>

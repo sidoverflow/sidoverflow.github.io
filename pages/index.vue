@@ -76,7 +76,7 @@ export default {
   mounted() {
     window.setInterval(() => {
       this.toggle()
-    }, 4500)
+    }, 2000)
   },
   methods: {
     toggle() {
