@@ -5,8 +5,8 @@
       <v-icon color="primary" large>fas fa-terminal</v-icon>
       <h1 class="font-weight-black pl-4">Projects</h1>
     </v-row>
-    <v-row justify="center" align="center" class="px-16">
-      <v-timeline align-top>
+    <v-row justify="center" align="center" class="mr-4">
+      <v-timeline align-top dense>
         <v-timeline-item
           v-for="(item, i) in items"
           :key="i"
@@ -17,10 +17,7 @@
         >
           <v-card color="accent">
             <a :href="item.link" target="_blank" style="text-decoration: none">
-              <v-card-title
-                class="title white--text"
-                v-text="item.title"
-              ></v-card-title>
+              <v-card-title class="title white--text" v-text="item.title"></v-card-title>
             </a>
             <!-- eslint-disable-next-line -->
             <v-card-text class="mt-n4" v-html="item.description"> </v-card-text>

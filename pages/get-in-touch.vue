@@ -1,67 +1,60 @@
 <template>
   <div>
-    <v-row justify="center" align="center" class="my-10">
+    <v-row justify="center" align="center" class="mt-4">
       <v-icon large>fas fa-hands-helping</v-icon>
       <h1 class="font-weight-black pl-4">
         Get in
         <span class="primary--text">Touch</span>
       </h1>
     </v-row>
-    <v-row justify="center" align="center" class="mt-10">
-      <v-timeline clipped>
-        <!-- <v-timeline-item left class="mb-4 font-weight-bold" hide-dot>
-          Email
-        </v-timeline-item> -->
+    <v-row justify="center" align="center" class="mt-6">
+      <v-timeline dense>
+        <!--Email-->
         <v-timeline-item left class="mb-4" small>
           <v-row justify="end">
-            <v-btn
-              class="contact-button text-lowercase"
-              href="mailto:hi@sidharth.me"
-              elevation="4"
-              rounded
-            >
+            <v-btn class="contact-button text-lowercase" href="mailto:hi@sidharth.me" elevation="4" rounded>
               <v-icon class="mr-2">fas fa-paper-plane</v-icon>
               hi@sidharth.me
             </v-btn>
           </v-row>
         </v-timeline-item>
 
-        <!-- <v-timeline-item class="mb-4 font-weight-bold" hide-dot>
-          LinkedIn
-        </v-timeline-item> -->
-        <v-timeline-item
-          right
-          class="mb-4"
-          color="primary"
-          icon-color="primary lighten-2"
-          small
-        >
+        <!--Matrix-->
+        <v-timeline-item left class="mb-4" small>
+          <v-row justify="end">
+            <v-btn
+              class="contact-button text-lowercase"
+              href="https://matrix.to/#/@writetosid:matrix.org"
+              elevation="4"
+              rounded
+            >
+              <v-icon class="mr-2">fas fa-comment</v-icon>
+              @writetosid
+            </v-btn>
+          </v-row>
+        </v-timeline-item>
+
+        <!--Github-->
+        <v-timeline-item left class="mb-4" small>
+          <v-row justify="end">
+            <v-btn class="contact-button text-lowercase" href="https://github.com/sidoverflow" elevation="4" rounded>
+              <v-icon class="mr-2">fab fa-github</v-icon>
+              @sidoverflow
+            </v-btn>
+          </v-row>
+        </v-timeline-item>
+
+        <!--LinkedIn-->
+        <v-timeline-item right class="mb-4" color="primary" icon-color="primary lighten-2" small>
           <v-row justify="space-between">
             <v-btn
-              class="contact-button"
+              class="contact-button text-lowercase"
               href="https://linkedin.com/in/sidharthsudarsan"
               elevation="4"
               rounded
             >
               <v-icon class="mr-2">fab fa-linkedin</v-icon>
-              Sidharth Sudarsan
-            </v-btn>
-          </v-row>
-        </v-timeline-item>
-
-        <!-- <v-timeline-item left class="mb-4 font-weight-bold" hide-dot>
-          GitHub
-        </v-timeline-item> -->
-        <v-timeline-item left class="mb-4" small>
-          <v-row justify="end">
-            <v-btn
-              class="contact-button text-lowercase"
-              href="https://github.com/sidoverflow"
-              elevation="4"
-              rounded
-            >
-              <v-icon class="mr-2">fab fa-github</v-icon>
-              @sidoverflow
+              /in/sidharthsudarsan
             </v-btn>
           </v-row>
         </v-timeline-item>
@@ -84,14 +77,14 @@
         </v-timeline-item> -->
       </v-timeline>
     </v-row>
-    <v-row justify="center" align="center" class="pt-6 px-6 mt-16">
-      <h4 class="font-weight-regular my-4">
+    <v-row justify="center" align="center" class="pt-6 px-6 mt-8">
+      <h4 class="font-weight-regular my-4 text-center">
         If you encrypt email using GPG,
         <a href="/sidharth-pubkey.asc">download</a> my public key or:
       </h4>
     </v-row>
     <v-row justify="center" align="center" class="pt-2 px-6">
-      <code class="code-js"
+      <code class="code-js text-center"
         ><span class="primary--text">curl</span>
         https://sidharth.me/sidharth-pubkey.asc |
         <span class="primary--text">gpg</span> --import</code

@@ -13,26 +13,18 @@
     <v-row justify="center" align="center">
       <v-btn
         href="https://registry.jsonresume.org/sidoverflow"
+        class="mt-4 mx-4"
         target="_blank"
         color="primary"
         rounded
         outlined
-        class="ml-16"
         >Resume (Web)</v-btn
       >
       <v-spacer></v-spacer>
-      <v-btn
-        class="mr-16"
-        href="/resume.pdf"
-        download
-        color="primary"
-        rounded
-        outlined
-        >Resume (PDF)</v-btn
-      >
+      <v-btn href="/resume.pdf" download color="primary" class="mx-4 mt-4" rounded outlined>Resume (PDF)</v-btn>
     </v-row>
 
-    <v-row justify="center">
+    <v-row justify="center" align="center">
       <div id="timeline-content">
         <ul class="timeline">
           <li class="event" data-date="September 2018 - present">
@@ -52,34 +44,27 @@
             </h3>
             <p class="primary--text font-italic">Research Assistant</p>
             <p>
-              Carrying out research in the Intelligent Systems for Sustainable
-              Urban Mobility (ISSUM) project under
+              Carrying out research in the Intelligent Systems for Sustainable Urban Mobility (ISSUM) project under
               <span class="font-italic">Dr. Gunho Sohn.</span>
               <br />
               <br />
-              Developing an Augmented Reality-based indoor navigation and visual
-              cognition assistant for the visually impaired. <br />
+              Developing an Augmented Reality-based indoor navigation and visual cognition assistant for the visually
+              impaired. <br />
               <br />
-              Built using Microsoft's HoloLens and Mixed Reality Toolkit on
-              Unity game engine. <br />
+              Built using Microsoft's HoloLens and Mixed Reality Toolkit on Unity game engine. <br />
               <br />
               Utilized 3D models and spatial scans of the campus environment.
               <br />
               <br />
-              Also built the interface for a 3D virtual environment made on
-              Cesium.js using 3D and BIM models.
+              Also built the interface for a 3D virtual environment made on Cesium.js using 3D and BIM models.
             </p>
           </li>
           <li class="event" data-date="August 2020 - present">
-            <a href="https://www.drcar.ca" style="text-decoration: none"
-              ><h3 class="white--text">Dr Car</h3></a
-            >
+            <a href="https://www.drcar.ca" style="text-decoration: none"><h3 class="white--text">Dr Car</h3></a>
             <p class="primary--text font-italic">Back-end Engineer</p>
             <p>
-              Co-founded a startup with a team of seven, reinventing how car
-              owners book, service, and track their car repairs driven by a deep
-              rooted desire to address the hassle associated with car care and
-              servicing.
+              Co-founded a startup with a team of seven, reinventing how car owners book, service, and track their car
+              repairs driven by a deep rooted desire to address the hassle associated with car care and servicing.
               <br />
               <br />
               Designing and building the back-end server for the application.
