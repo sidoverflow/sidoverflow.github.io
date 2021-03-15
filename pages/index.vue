@@ -28,24 +28,22 @@
         <p class="text-body font-weight-regular text--disabled">
           Aspiring <span class="primary--text">software engineer.</span><br />
           Admirer of <span class="font-italic">clean</span> software design.<br />
-          Into <span class="white--text">AR</span> and
-          <span class="white--text">server-side development.</span>
-          <br />
           Fascinated by math.<br />
           FOSS enthusiast.<br />
         </p>
       </v-col>
       <v-col align="center" cols="12" md="4" class="px-6">
-        <img class="lazyload" src="~/assets/main.png" width="85%" />
+        <img class="lazyload" src="~/assets/main.webp" width="100%" />
       </v-col>
       <v-col align="left" cols="12" md="4" class="pl-6">
         <h2 class="font-weight-thin"><span class="primary--text">~</span>AND?<span class="primary--text">~</span></h2>
         <p class="text-body font-weight-regular text--disabled">
-          Love photo and film. <br />
-          Music addict. <br />
+          Love photo, film and music. <br />
           Food enthusiast. <br />
           Petrolhead. <br />
-          Fan of <span class="font-italic">The Beautiful Game</span>. <br />
+          Fan of <span class="font-italic">The Beautiful Game</span>.
+          <v-avatar tile :size="13"><img src="~/assets/fcb.webp" /></v-avatar>
+          <br />
         </p>
       </v-col>
     </v-row>
@@ -77,7 +75,7 @@ export default {
   mounted() {
     window.setInterval(() => {
       this.toggle()
-    }, 2000)
+    }, 3000)
   },
   methods: {
     toggle() {

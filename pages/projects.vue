@@ -5,7 +5,7 @@
       <v-icon color="primary" large>fas fa-terminal</v-icon>
       <h1 class="font-weight-black pl-4">Projects</h1>
     </v-row>
-    <v-row justify="center" align="center" class="mr-4">
+    <v-row justify="center" align="center" class="mx-8">
       <v-timeline align-top dense>
         <v-timeline-item
           v-for="(item, i) in items"
