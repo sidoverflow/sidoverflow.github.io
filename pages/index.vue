@@ -22,11 +22,9 @@
     </h1>
     <v-row justify="center" align="center">
       <v-col align="right" cols="12" md="4" class="pt-4 pr-6">
-        <h2 class="font-weight-thin">
-          <span class="primary--text">&lt;</span>COMPUTERS<span class="primary--text">&gt;</span>
-        </h2>
+        <h2 class="font-weight-thin">COMPUTERS</h2>
         <p class="text-body font-weight-regular text--disabled">
-          Aspiring <span class="primary--text">software engineer.</span><br />
+          <span class="primary--text">Software engineering</span> student.<br />
           Admirer of <span class="font-italic">clean</span> software design.<br />
           Fascinated by math.<br />
           FOSS enthusiast.<br />
@@ -36,7 +34,7 @@
         <img class="lazyload" src="~/assets/main.webp" width="100%" />
       </v-col>
       <v-col align="left" cols="12" md="4" class="pl-6">
-        <h2 class="font-weight-thin"><span class="primary--text">~</span>AND?<span class="primary--text">~</span></h2>
+        <h2 class="font-weight-thin">AND?</h2>
         <p class="text-body font-weight-regular text--disabled">
           Love photo, film and music. <br />
           Food enthusiast. <br />

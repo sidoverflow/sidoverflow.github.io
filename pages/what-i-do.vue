@@ -48,22 +48,21 @@
               <span class="font-italic">Dr. Gunho Sohn.</span>
               <br />
               <br />
-              Developing an Augmented Reality-based indoor navigation and visual cognition assistant for the visually
-              impaired. <br />
+              Developed an MVP for an AR-based indoor navigation and visual cognition assistant for the visually
+              impaired — HoloAssist. <br />
               <br />
-              Built using Microsoft's HoloLens and Mixed Reality Toolkit on Unity game engine. <br />
+              Built on Microsoft HoloLens using the Mixed Reality Toolkit and the Unity game engine, 3D models and
+              spatial scans of the campus environment were utilized. <br />
               <br />
-              Utilized 3D models and spatial scans of the campus environment.
-              <br />
-              <br />
-              Also built the interface for a 3D virtual environment made on Cesium.js using 3D and BIM models.
+              Currently developing a crowd simulator for the YorkU campus for research on pedestrian comfort analysis
+              and effective social distancing protocols.
             </p>
           </li>
-          <li class="event" data-date="August 2020 - present">
+          <li class="event" data-date="August 2020 - March 2021">
             <a href="https://www.drcar.ca" style="text-decoration: none"><h3 class="white--text">Dr Car</h3></a>
             <p class="primary--text font-italic">Back-end Engineer</p>
             <p>
-              Co-founded a startup with a team of seven, reinventing how car owners book, service, and track their car
+              Worked on a startup with a team of seven, reinventing how car owners book, service, and track their car
               repairs driven by a deep rooted desire to address the hassle associated with car care and servicing.
               <br />
               <br />

@@ -65,7 +65,7 @@ export default {
       {
         title: 'VennEver',
         description:
-          '<p>Developed a Venn Diagram-based desktop application with a team of four people over the course of a semester in a complete <span class="font-italic">Software Development Life Cycle</span>. The application allows the user to create and customize venn diagrams to visually represent various types of data sets. Built on <span class="font-italic white--text">Java</span> with the GUI library <span class="font-italic white--text">JavaFX</span>, build tool <span class="font-italic white--text">Gradle</span> and <span class="font-italic white--text">CircleCI</span> for CI/CD. Application is unit and function tested with <span class="font-italic white--text">JUnit</span>.</p>',
+          '<p>Developed a Venn Diagram-based desktop application with a team of four people over the course of a semester in a complete <span class="font-italic">Software Development Life Cycle</span>. The application allows the user to create and customize venn diagrams to visually represent various types of data sets. Built on <span class="font-italic white--text">Java</span> with the GUI library <span class="font-italic white--text">JavaFX</span>, build tool <span class="font-italic white--text">Gradle</span> and <span class="font-italic white--text">CircleCI</span> for continuous integration. Application is unit and function tested with <span class="font-italic white--text">JUnit</span>.</p>',
         link: 'https://github.com/sidoverflow/VennEver',
         icons: ['fab fa-java'],
       },
