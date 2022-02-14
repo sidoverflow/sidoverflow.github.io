@@ -1,0 +1,62 @@
+<div id="contact" class="snap-start h-screen bg-zinc-900 py-16 px-4 md:px-10">
+    <div class="text-red-600 text-3xl font-semibold text-right">contact.</div>
+    <div class="flex flex-col justify-center mx-10 py-8 h-full items-center">
+        <div class="grid grid-rows-1 md:grid-cols-2 gap-10">
+            <div class="border-2 p-4 rounded-xl shadow-md w-full">
+                <h3 class="font-semibold text-lg mb-2 text-white">Email
+                </h3>
+                <a class="hover:underline hover:decoration-2 hover:decoration-red-600" href="mailto:hi@sidharth.me"
+                    target="_blank" rel="noopener noreferrer">
+                    <p class="font-mono text-neutral-200">
+                        hi@sidharth.me
+                    </p>
+                </a>
+            </div>
+            <div class="border-2 p-4 rounded-xl shadow-md w-full">
+                <h3 class="font-semibold text-lg mb-2 text-white">Chat: matrix.org
+                </h3>
+                <a class="hover:underline hover:decoration-2 hover:decoration-red-600"
+                    href="https://matrix.to/#/@writetosid:matrix.org" target="_blank" rel="noopener noreferrer">
+                    <p class="font-mono text-neutral-200">
+                        @writetosid
+                    </p>
+                </a>
+            </div>
+            <div class="border-2 p-4 rounded-xl shadow-md w-full">
+                <h3 class="font-semibold text-lg mb-2 text-white">GitHub
+                </h3>
+                <a class="hover:underline hover:decoration-2 hover:decoration-red-600"
+                    href="https://github.com/sidoverflow" target="_blank" rel="noopener noreferrer">
+                    <p class="font-mono text-neutral-200">
+                        @sidoverflow
+                    </p>
+                </a>
+            </div>
+            <div class="border-2 p-4 rounded-xl shadow-md w-full">
+
+                <h3 class="font-semibold text-lg mb-2 text-white">LinkedIn
+                </h3>
+                <a class="hover:underline hover:decoration-2 hover:decoration-red-600"
+                    href="https://linkedin.com/in/sidharthsudarsan" target="_blank" rel="noopener noreferrer">
+                    <p class="font-mono text-neutral-200">
+                        in/sidharthsudarsan
+                    </p>
+                </a>
+                </a>
+            </div>
+        </div>
+        <div class="hidden md:block">
+            <h4 class="text-white mt-12 text-center ">
+                If you encrypt email using GPG,
+                <a class="underline hover:font-bold" href="/sidharth-pubkey.asc" download>download</a> my public key or
+                <span class="underline hover:font-bold cursor-copy" onclick="copyCommand()">copy: </span>
+            </h4>
+            <div class="flex items-center justify-center text-white">
+                <code id="curlCommand" class="mt-4 ring ring-2 ring-white px-2 text-center rounded-full bg-zinc-700"><span class="text-green">curl</span>
+                    https://sidharth.me/sidharth-pubkey.asc |
+                    <span class="text-green">gpg</span> --import</code>
+            </div>
+        </div>
+    </div>
+
+</div>

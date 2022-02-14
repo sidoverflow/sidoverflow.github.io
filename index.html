@@ -1,15 +1,102 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hi, I'm Sid</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles/tailwind.css" rel="stylesheet">
-  </head>
+<html class="scroll-smooth">
 
-  <body>
-    <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 w-screen h-12 rounded-2xl">
+<head>
+  <title>Hi, I'm Sid</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="styles/main_out.css" rel="stylesheet" />
+
+  <!-- <script src="scripts/live.js"></script> -->
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#aboutContent").load("about.html");
+      $("#workContent").load("work.html");
+      $("#projectsContent").load("projects.html");
+      $("#contactContent").load("contact.html");
+    });
+  </script>
+</head>
+
+<body>
+  <div class="flex flex-col h-screen relative">
+    <div class="bg-white w-screen h-12 flex flex-row items-center justify-around fixed z-50">
+      <div class="
+            flex
+            bg-zinc-900
+            w-auto
+            h-12
+            px-2
+            text-4xl
+            items-center
+            text-center
+            text-white
+          ">
+        ss<span class="text-red-600">.</span>
+      </div>
+      <div class="w-1/2 flex justify-evenly flex-row text-sm md:text-lg">
+        <a href="#about">
+          <div class="
+              font-mono
+              text-right
+              px-1
+               text-zinc-900
+              hover:font-bold
+              hover:text-white
+              hover:bg-red-600       
+            ">
+            about<span class="text-white">.</span>
+          </div>
+        </a>
+        <a href="#work">
+          <div class="
+              font-mono
+              text-right  text-zinc-900
+              px-1
+              hover:font-bold
+              hover:text-white
+              hover:bg-red-600    
+            ">
+            work<span class="text-white">.</span>
+          </div>
+        </a>
+        <a href="#projects">
+          <div class="
+              font-mono
+              text-right  text-zinc-900
+              px-1
+              hover:font-bold
+              hover:text-white
+              hover:bg-red-600   
+            ">
+            projects<span class="text-white">.</span>
+          </div>
+        </a>
+        <a href="#contact">
+          <div class="
+              font-mono
+              text-right  text-zinc-900
+              px-1
+              hover:font-bold
+              hover:text-white
+              hover:bg-red-600     
+            ">
+            contact<span class="text-white">.</span>
+          </div>
+        </a>
+      </div>
     </div>
-    <h1 class="text-red-500 text-sm text-center">Sidharth Sudarsan.</h1>
-  </body>
+    <!-- <div class="flex flex-col snap-y snap-mandatory w-screen h-screen overflow-scroll"> -->
+    <div class="flex flex-col w-screen overflow-scroll-y">
+      <div id="aboutContent"></div>
+      <div id="workContent"></div>
+      <div id="projectsContent"></div>
+      <div id="contactContent"></div>
+    </div>
+  </div>
+</body>
+
 </html>
